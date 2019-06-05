@@ -51,8 +51,8 @@ Very straightforward, just ```apt-get install nginx```. Note: autoindex is disab
         location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
             expires 2d;
             add_header Cache-Control "public, no-transform";
-       } ```
-
+       } 
+```
 # ufw
 
 Deny an ip address:
