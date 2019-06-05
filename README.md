@@ -53,6 +53,7 @@ server {
             expires 2d;
             add_header Cache-Control "public, no-transform";
        } 
+}
 ```
 # ufw
 
