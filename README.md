@@ -30,7 +30,8 @@ Very straightforward, just ```apt-get install nginx```. Note: autoindex is disab
 
 - Server Blocks
 
-```server {
+```
+server {
         root /var/www/example.com/html;
         index index.html index.htm index.nginx-debian.html;
 
