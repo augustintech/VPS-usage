@@ -30,9 +30,9 @@ Very straightforward, just ```apt-get install nginx```. Note: autoindex is disab
 
 - Server Blocks
 
-HSTS
-Cache control
-Custom 404 error page
+HSTS,
+Cache control,
+Custom 404 error page,
 
 ```
 server {
