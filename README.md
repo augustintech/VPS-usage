@@ -28,6 +28,8 @@ To export log analysis to a static html file [relative path] (cd /var/log/nginx)
 # Nginx:
 Very straightforward, just ```apt-get install nginx```. Note: autoindex is disabled by default.
 
+- Server Blocks
+
 # ufw
 
 Deny an ip address:
