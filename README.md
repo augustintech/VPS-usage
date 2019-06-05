@@ -30,6 +30,29 @@ Very straightforward, just ```apt-get install nginx```. Note: autoindex is disab
 
 - Server Blocks
 
+```server {
+        root /var/www/example.com/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name example.com www.example.com;
+
+        location / {
+                try_files $uri $uri/ =404;
+                add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+                add_header X-Robots-Tag "none";
+        }
+
+        error_page 404 /custom_404.html;
+        location = /custom_404.html {
+                root /usr/share/nginx/html;
+                internal;
+        }
+
+        location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
+            expires 2d;
+            add_header Cache-Control "public, no-transform";
+       } ```
+
 # ufw
 
 Deny an ip address:
