@@ -31,7 +31,7 @@ Very straightforward, just ```apt-get install nginx```. Note: autoindex is disab
 - Server Blocks
 
 HSTS,
-Cache control,
+Cache control (2 day),
 Custom 404 error page,
 Gzip
 
