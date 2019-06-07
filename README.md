@@ -34,6 +34,7 @@ HSTS,
 Cache control (2 day),
 Custom 404 error page,
 Gzip
+No index header (google standard)
 
 ```
 server {
