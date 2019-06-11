@@ -142,6 +142,8 @@ Synchronise/Copy/Transfer all contents of folder in which rsync is executed TO a
 # Wget
 Straightforward
 
+Works better than curl for downloading files
+
 # Git clone
 Straightforward
 
