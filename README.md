@@ -72,10 +72,13 @@ gzip on;
 	gzip_http_version 1.1;
 	gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 ```
+HTTPS 2
+
 ```
 listen [::]:443 ssl http2 ipv6only=on; 
     listen 443 ssl http2; 
-ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;```
+ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
+```
 
 
 # ufw
